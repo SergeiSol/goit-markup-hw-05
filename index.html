@@ -20,9 +20,16 @@
         <a class="logo link" href="./index.html"><span class="accent">Web</span>Studio</a>
 
         <ul class="header-list list">
+            
             <li class="header-item"><a class="nav-link link current" href="./index.html">Студия</a></li>
+            
+
             <li class="header-item"><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
+
+
             <li class="header-item"><a class="nav-link link" href="./index.html">Контакты</a></li>
+
+
         </ul>
         </nav>
         <ul class="header-list list ">
@@ -47,9 +54,13 @@
             <div class="conteiner">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
             <div class="btn">
-                <button class="button" type="button">Заказать услугу</button>
+              
+                <button data-modal-open class="button" type="button">Заказать услугу</button>
+                
         </div>
             </div>
+            
+        
         </section>
         <!--Work-->
         <section class="work section">
@@ -82,10 +93,17 @@
                <div class="conteiner">
                 <h2 class="section-about-title">Чем мы занимаемся</h2>
                 <ul class="about-list list">
+                  
+                 
+                <li class="about-item"><img src="./images/studio/img.jpg" alt="Програмное обепечение" width="370" />
+                 <div class="item-desk"><h2 class="item-sub">Десктопные приложения</h2></div>
+                  
+                <li class="about-item"><img src="./images/studio/img-2.jpg" alt="Мобильные решения" width="370" />
+                  <div class="item-desk"><h2 class="item-sub">Мобильные приложения</h2></div>
+                  
+                <li class="about-item"><img src="./images/studio/img-3.jpg" alt="Дизайнерские решения" width="370" />
+                   <div class="item-desk"><h2 class="item-sub">Дизайнерские решения</h2></div>
 
-                <li class="about-item"><img src="./images/studio/img.jpg" alt="Програмное обепечение" width="370" /></li>
-                <li class="about-item"><img src="./images/studio/img-2.jpg" alt="Мобильные решения" width="370" /></li>
-                <li class="about-item"><img src="./images/studio/img-3.jpg" alt="Дизайнерские решения" width="370" /></li>
             </ul>
         </div>
         </section>
@@ -193,7 +211,7 @@
         </section>
         <section class="conteiner">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul class="list-link">
+          <ul class="company-link">
               <li class="link-item"><a class="link-icon" href=""><svg class="icon-yasco"><use href="./images/icons.svg#icon-yasco"></use></svg></a></li>
               <li class="link-item"><a class="link-icon" href=""><svg class="icon-company"><use href="./images/icons.svg#icon-company"></use></svg></a></li>
               <li class="link-item"><a class="link-icon" href=""><svg class="icon-company-2"><use href="./images/icons.svg#icon-company-2"></use></svg></a></li>
@@ -222,7 +240,7 @@
                 
                 <h3 class="address-comein">присоединяйтесь</h3>
 
-            <ul class="list-link">
+            <ul class="list-social">
                 <li class="item-social"><a class="link-social" href=""><svg width="20" height="20" class="icon-instagram">
                             <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
@@ -245,7 +263,15 @@
     </div>
     </footer>
 
+    <div class="bascdrop is-hidden" data-modal><div class="modal"><p></p>
+    <button data-modal-close><svg width="11" height="11" class="icon-close"><use href="./images/ico/close-black.svg"></use></svg></button>
+    
+    </div>
+    </div>
 
+
+
+<script src="./js/model.js"></script>
 </body>
 
 </html>
