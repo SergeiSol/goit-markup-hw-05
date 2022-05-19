@@ -579,7 +579,7 @@ address {
     padding-right: 44px;
     padding-bottom: 63px;
     padding-left: 44px;
-    background-color: rgba(255, 166, 0, 0.513);
+    background: rgba(33, 150, 243, 0.9);
     height: 100%;
     margin: 0;
     transform: translateY(100%);
@@ -662,6 +662,20 @@ address {
     opacity: 1;
 
 }
+.modal-btn {
+    top: 17px;
+    right: 17px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #fff;
+    background-image: url(./images/ico/close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    
+}
 .icon-close{
     
+    fill: #212121;
 }
