@@ -310,11 +310,11 @@ address {
     margin: 0px;
 }
 .about-item{
-    
     position: relative;
     margin-right: 30px;
     width: 370px;
     height: 294px;
+    
 }
 .about-item:last-child {
     margin: 0;
@@ -328,11 +328,12 @@ address {
 }
 .item-sub {
     text-align: center;
+    text-decoration: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     margin: 0;
-    width: 199px;
+    width: 205px;
     height: 16px;
     margin-top: 27px;
     margin-bottom: 27px;
@@ -662,20 +663,12 @@ address {
     opacity: 1;
 
 }
-.modal-btn {
-    top: 17px;
-    right: 17px;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background-color: #fff;
-    background-image: url(./images/ico/close.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
-    
-}
+
 .icon-close{
+    position: absolute;
     
-    fill: #212121;
+        top: 17px;
+        right: 17px;
+        width: 30px;
+        height: 30px;
 }
