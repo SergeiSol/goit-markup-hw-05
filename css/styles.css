@@ -653,7 +653,7 @@ address {
 
 
 .modal{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -661,14 +661,24 @@ address {
     min-height: 581px;
     background-color: #fff;
     opacity: 1;
+    
 
 }
 
-.icon-close{
+.icon-vector{
+    width: 11px;
+    height: 11px;
+        
+}
+.icon-btn{
     position: absolute;
-    
-        top: 17px;
-        right: 17px;
-        width: 30px;
-        height: 30px;
+    top: 17px;
+    right: 17px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
